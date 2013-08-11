@@ -1,5 +1,7 @@
 # Qs::Request::Tracker
 
+[![Build Status](https://travis-ci.org/quarter-spiral/qs-request-tracker.png)](https://travis-ci.org/quarter-spiral/qs-request-tracker)
+
 Manages a ``Request-Id`` for each HTTP request. Hooks transparently into [Faraday](https://github.com/lostisland/faraday) and [service-client](https://github.com/quarter-spiral/service-client) to pass request ids on to subsequent calls to other services. This way errors can be tracked through all layers and apps of your infrastructure easily.
 
 ## Use as a Rack middleware
