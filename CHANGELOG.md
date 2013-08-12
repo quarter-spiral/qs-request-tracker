@@ -1,4 +1,4 @@
-# 0.0.2 / Unreleased
+# 0.0.2 / 2013-08-12
 
 * Adds a Raven processor to tag exceptions with the request id
 
